@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Amanda's Pres</title>
+
+		<link rel="stylesheet" href="Reveal/css/reveal.css">
+		<link rel="stylesheet" href="Reveal/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="Reveal/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h2>Amanda Ghassaei</h2><br/>
+				MIT Center for Bits and Atoms</section>
+                <!--<section data-background-video="Content/Ambient/Breathing-HD.mp4" type="video/mp4" data-background-color="#FFF"></section>-->
+
+				<section>
+					<img src="Content/Sugarcube/bounce.gif">
+					<img src="Content/Sugarcube/step.gif">
+					<img src="Content/Sugarcube/tilt.gif">
+					<img src="Content/Sugarcube/shakeToErase.gif">
+				</section>
+                <!--<section data-background-video="Content/Sugarcube/tilt.mp4" type="video/mp4" data-background-color="#000"></section>-->
+				<section data-background-image="Content/Instructables/ibles.png"></section>
+
+				<section data-background-image="Content/3DPrintedRecord/model1.jpg"></section>
+                <!--<section data-background-image="Content/3DPrintedRecord/model3.png"></section>-->
+                <section data-background-video="Content/3DPrintedRecord/3DPrintedRecord-HD.mp4" type="video/mp4" data-background-color="#000"></section>
+                <!--<section data-background-image="Content/LaserCutRecord/overheadCloseUp.jpg"></section>-->
+
+				<section data-background-video="Content/20160419BendyDemo.mp4" type="video/mp4" data-background-color="#000"></section>
+				<!--<section data-background-image="Content/20160703EliRenderNanobot.jpg"></section>-->
+
+				<section data-background-image="Content/Compass/galacticCoord.jpg"></section>
+				<section data-background-image="Content/Compass/compass.png"></section>
+				<section data-background-video="Content/Compass/3dprinted.mp4" type="video/mp4" data-background-color="#000"></section>
+				<section data-background-video-muted="true" data-background-video="Content/Compass/brazing.mp4" type="video/mp4" data-background-color="#000"></section>
+				<!--<section data-background-image="Content/Compass/contact.jpg"></section>-->
+
+			</div>
+		</div>
+
+		<script src="Reveal/lib/js/head.min.js"></script>
+		<script src="Reveal/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				keyboard: true,
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
